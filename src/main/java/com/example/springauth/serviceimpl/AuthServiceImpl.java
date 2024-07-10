@@ -5,15 +5,14 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
 import com.example.springauth.jwt.JwtTokenProvider;
 import com.example.springauth.model.LoginDto;
 import com.example.springauth.repository.UserRepository;
-import com.example.springauth.service.AuthService;
+import com.example.springauth.service.AuthService.AuthServiceLogin;
 
 
 @Service
-public class AuthServiceImpl implements AuthService {
+public class AuthServiceImpl implements AuthServiceLogin {
 
     private AuthenticationManager authenticationManager;
     private JwtTokenProvider jwtTokenProvider;
