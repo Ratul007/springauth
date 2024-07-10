@@ -1,7 +1,11 @@
-package com.example.springauth;
+package com.example.springauth.controller;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.springauth.jwt.JWTAuthResponse;
+import com.example.springauth.model.LoginDto;
+import com.example.springauth.service.AuthService;
 
 @AllArgsConstructor
 @RestController

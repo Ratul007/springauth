@@ -1,4 +1,4 @@
-package com.example.springauth;
+package com.example.springauth.config;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

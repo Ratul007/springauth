@@ -1,4 +1,4 @@
-package com.example.springauth;
+package com.example.springauth.model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

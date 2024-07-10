@@ -1,4 +1,4 @@
-package com.example.springauth;
+package com.example.springauth.model;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class JWTAuthResponse {
-    private String accessToken;
-    private String tokenType = "Bearer";
+public class LoginDto {
+    private String usernameOrEmail;
+    private String password;
 }

@@ -1,5 +1,8 @@
-package com.example.springauth;
+package com.example.springauth.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.springauth.model.Role;
+
 import java.util.Optional;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {

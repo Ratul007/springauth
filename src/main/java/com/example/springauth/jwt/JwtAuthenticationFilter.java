@@ -1,4 +1,4 @@
-package com.example.springauth;
+package com.example.springauth.jwt;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
