@@ -22,11 +22,11 @@ public class SpringSecurityConfig {
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
-        http.csrf(csrf -> csrf.disable())
-                .authorizeHttpRequests((authorize) -> {
-                      authorize.requestMatchers("/api/auth/**").permitAll();
-                    authorize.anyRequest().authenticated();
-                });
+        http.csrf(csrf -> csrf.disable());
+                // .authorizeHttpRequests((authorize) -> {
+                //       authorize.requestMatchers("/api/auth/**").permitAll();
+                //     authorize.anyRequest().authenticated();
+                // });
         return http.build();
     }
 
