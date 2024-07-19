@@ -15,10 +15,10 @@ public class JwtTokenProvider {
 
     private static final Logger logger = LoggerFactory.getLogger(JwtTokenProvider.class);
 
-    @Value("${app.jwt-secret}")
+    @Value("${alkjflkajlfjkajsl12908312093912039812033123123123123123123}")
     private String jwtSecret;
 
-    @Value("${app-jwt-expiration-milliseconds}")
+    @Value("${604800000}")
     private long jwtExpirationDate;
 
     // generate JWT token
